@@ -1,0 +1,32 @@
+# Vivado files
+*.jou
+*.log
+*.str
+*.xpr
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.tmp/
+
+# Simulation files
+*.wdb
+*.vcd
+*.ghw
+*.pb
+# Compiled IP (keep .xci configuration, exclude compiled output)
+*.dcp
+
+# Python
+__pycache__/
+*.pyc
+
+# Test vectors (auto-generated)
+test_vectors/
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
